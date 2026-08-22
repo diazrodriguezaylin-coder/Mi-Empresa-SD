@@ -47,17 +47,14 @@ header{
     width:100%;
     max-width:1200px;
     margin:0 auto 30px;
-    aspect-ratio:3 / 1;
-    max-height:320px;
-    background-image:url("../img/banner.jpg");
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    border-radius:8px;
-    overflow:hidden;
 }
 .banner{
-    visibility:hidden;
+    display:block;
+    width:100%;
+    aspect-ratio:3 / 1;
+    max-height:320px;
+    object-fit:cover;
+    border-radius:8px;
 }
 nav{
     background-color:#457b9d;
@@ -160,18 +157,13 @@ header{
         width:75px;
         height:75px;
     }
-.identidad h1{
-        font-size:1.8rem;
-    }
-.identidad p{
-        font-size:1rem;
-    }
 .banner{
-    visibility:hidden;
-    }
-.banner-contenedor{
-    aspect-ratio:16 / 9;
-    max-height:220px;
+    display:block;
+        width:100%;
+        aspect-ratio:16 / 9;
+        max-height:220px;
+        object-fit:cover;
+        border-radius:8px;
     }
 main{
     width:95%;
